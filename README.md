@@ -17,7 +17,7 @@ In addition to handling raw text, it also processes images (such as memes) by ex
 
 ## Project Structure
 
-- `Data_Preprocessing.ipynb`: Cleans and preprocesses the dataset (`hate_offensive_data.csv`) for training.
+- `Preprocessing_Data.ipynb`: Cleans and preprocesses the dataset (`hate_offensive_data.csv`) for training.
 - `LSTM.ipynb`: Trains and evaluates an LSTM-based classifier on the preprocessed dataset.
 - `BERT.ipynb`: Trains and evaluates a BERT-based classifier for the same task.
 - `Flask_app/main.py`: Backend script (Flask) to run the moderation system through a browser interface.
